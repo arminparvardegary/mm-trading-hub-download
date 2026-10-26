@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Download MM Trading Hub for Mac</title>
+  <meta name="description" content="Download MM Trading Hub, the Market Mavericks trading platform for Mac.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" type="image/png" href="icon.png">
+  <style>
+    :root {
+      --bg: #1A0C06;
+      --text: #F5EDE4;
+      --muted: rgba(215, 187, 159, 0.8);
+      --faint: rgba(215, 187, 159, 0.6);
+      --line: rgba(255, 255, 255, 0.1);
+      --accent: #C4603C;
+      --accent-2: #97432F;
+      --sand: #E0A57C;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; }
+    body {
+      min-height: 100dvh;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+      overflow-x: hidden;
+      position: relative;
+    }
+    .glow { position: absolute; pointer-events: none; border-radius: 50%; }
+    .glow.a { left: -6rem; top: -8rem; width: 30rem; height: 30rem;
+      background: radial-gradient(circle, rgba(134,62,38,0.4) 0%, rgba(66,37,25,0.18) 48%, transparent 74%); }
+    .glow.b { right: 6%; top: 18rem; width: 26rem; height: 26rem; filter: blur(64px);
+      background: radial-gradient(circle at 30% 30%, rgba(233,185,142,0.45) 0%, transparent 45%),
+                  radial-gradient(circle at 70% 60%, rgba(196,96,60,0.4) 0%, transparent 50%); }
+    main { position: relative; z-index: 1; max-width: 46rem; margin: 0 auto; padding: 3rem 1rem 5rem; }
+    .hero { text-align: center; margin-bottom: 2.5rem; }
+    .hero img { width: 96px; height: 96px; border-radius: 22px; box-shadow: 0 12px 40px rgba(0,0,0,0.45); }
+    .eyebrow { margin: 1.5rem 0 0.75rem; font-size: 0.75rem; font-weight: 500; letter-spacing: 0.3em; text-transform: uppercase; color: var(--accent); }
+    h1 { margin: 0; font-size: clamp(1.9rem, 5vw, 2.4rem); line-height: 1.15; letter-spacing: -0.02em; }
+    .intro { max-width: 34rem; margin: 1rem auto 0; color: var(--muted); font-size: 0.95rem; }
+    .grid { display: grid; gap: 1rem; grid-template-columns: 1fr; }
+    @media (min-width: 640px) { .grid { grid-template-columns: 1fr 1fr; } }
+    .card { display: flex; flex-direction: column; padding: 1.5rem; border: 1px solid var(--line); border-radius: 1.5rem; background: rgba(255,255,255,0.04); }
+    .card h2 { margin: 0; font-size: 1.15rem; }
+    .card p { margin: 0.25rem 0 1.5rem; color: var(--faint); font-size: 0.875rem; }
+    .btn { margin-top: auto; display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+      padding: 0.8rem 1.25rem; border-radius: 0.8rem; color: #FDF6EF; font-weight: 600; font-size: 0.9rem; text-decoration: none;
+      background: linear-gradient(90deg, var(--accent), var(--accent-2)); box-shadow: 0 10px 24px rgba(122,54,38,0.4); }
+    .btn:hover { background: linear-gradient(90deg, #D97046, #B14D2D); }
+    .btn svg { width: 1rem; height: 1rem; }
+    .which { margin: 1rem 0 0; text-align: center; color: var(--faint); font-size: 0.875rem; }
+    section.box { margin-top: 3rem; padding: 1.5rem; border: 1px solid var(--line); border-radius: 1.5rem; background: rgba(255,255,255,0.03); }
+    @media (min-width: 640px) { section.box { padding: 2rem; } }
+    section.box h2 { margin: 0 0 1.25rem; font-size: 1.25rem; }
+    ol { list-style: none; margin: 0; padding: 0; counter-reset: step; }
+    ol li { display: flex; gap: 1rem; margin-bottom: 1rem; color: rgba(233,212,193,0.85); font-size: 0.95rem; }
+    ol li::before { counter-increment: step; content: counter(step); flex: none; display: flex; align-items: center; justify-content: center;
+      width: 1.75rem; height: 1.75rem; border-radius: 50%; background: rgba(196,96,60,0.2); color: var(--sand); font-weight: 600; font-size: 0.85rem; }
+    .fix { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--line); }
+    .fix h3 { margin: 0; font-size: 1rem; }
+    .fix p { margin: 0.5rem 0 0; color: var(--muted); font-size: 0.875rem; }
+    code.cmd { display: block; margin-top: 0.75rem; padding: 0.75rem 1rem; border: 1px solid var(--line); border-radius: 0.8rem;
+      background: rgba(0,0,0,0.3); font: 0.8rem/1.5 ui-monospace, Menlo, monospace; white-space: nowrap; overflow-x: auto; user-select: all; -webkit-user-select: all; }
+    .small { margin-top: 2rem; color: var(--faint); font-size: 0.75rem; }
+    .small p { margin: 0 0 0.75rem; }
+    .small a { color: inherit; text-decoration: underline; text-decoration-color: rgba(255,255,255,0.2); text-underline-offset: 2px; }
+    .hash { font-family: ui-monospace, Menlo, monospace; word-break: break-all; }
+  </style>
+</head>
+<body>
+  <div class="glow a" aria-hidden="true"></div>
+  <div class="glow b" aria-hidden="true"></div>
+  <main>
+    <div class="hero">
+      <img src="icon.png" alt="MM Trading Hub">
+      <p class="eyebrow">Download</p>
+      <h1>MM Trading Hub for Mac</h1>
+      <p class="intro">The Market Mavericks trading platform: footprint charts, DOM trading, backtesting and an AI assistant. Everything runs on your Mac.</p>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h2>Apple Silicon</h2>
+        <p>Macs with an M1, M2, M3 or M4 chip</p>
+        <a class="btn" href="https://github.com/arminparvardegary/mm-trading-hub-download/releases/download/v1.0.0/MM-Trading-Hub-1.0-AppleSilicon.dmg">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+          Download (62 MB)
+        </a>
+      </div>
+      <div class="card">
+        <h2>Intel</h2>
+        <p>Macs with an Intel processor</p>
+        <a class="btn" href="https://github.com/arminparvardegary/mm-trading-hub-download/releases/download/v1.0.0/MM-Trading-Hub-1.0-Intel.dmg">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+          Download (64 MB)
+        </a>
+      </div>
+    </div>
+    <p class="which">Not sure which? Apple menu &gt; About This Mac: &ldquo;Chip: Apple&rdquo; means Apple Silicon, &ldquo;Processor: Intel&rdquo; means Intel.</p>
+
+    <section class="box">
+      <h2>Install</h2>
+      <ol>
+        <li><span>Open the file you downloaded and drag MM Trading Hub onto the Applications shortcut. Don&rsquo;t run it from inside that window.</span></li>
+        <li><span>Open MM Trading Hub from your Applications folder. The first time, macOS says it can&rsquo;t verify the app, because it isn&rsquo;t notarized by Apple yet. Click Done, then go to System Settings &gt; Privacy &amp; Security, scroll down and click Open Anyway next to MM Trading Hub.</span></li>
+        <li><span>That&rsquo;s it: it opens on a simulated account, so nothing trades real money until you connect a broker yourself.</span></li>
+      </ol>
+      <div class="fix">
+        <h3>If macOS says the app &ldquo;can&rsquo;t be opened&rdquo;</h3>
+        <p>Make sure you downloaded the version for your Mac and that the app is in your Applications folder. Then open Terminal, paste this line, press Return and open the app again:</p>
+        <code class="cmd">xattr -dr com.apple.quarantine "/Applications/MM Trading Hub.app"</code>
+      </div>
+    </section>
+
+    <div class="small">
+      <p>Needs macOS 12 or newer. The AI assistant needs Claude Code with your own Claude subscription; brokers and data providers need their own accounts.</p>
+      <p>MM Trading Hub is the Market Mavericks edition of <a href="https://github.com/ralphtradesz/trading-hub" rel="noopener">Trading Hub by ralphtradesz</a>, free to use under the MIT License with the Commons Clause: it may not be sold (see <a href="LICENSE">LICENSE</a> and <a href="NOTICE.md">NOTICE</a>). Trading involves the risk of losing money; MM Trading Hub gives no investment advice.</p>
+      <p>SHA-256 checksums:</p>
+      <p class="hash">Apple Silicon: a558bd3fe8c5a245bb65d60826449dd17bb0024de7dde184b320f1c279ad953a</p>
+      <p class="hash">Intel: f6d836c290d4f0bb939b24fa676b704fe647c0e9c434c77c978cf6d2fefecc5a</p>
+    </div>
+  </main>
+</body>
+</html>
